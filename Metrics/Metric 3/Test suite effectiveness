@@ -1,1 +1,26 @@
-M
+Testing is an internal part of software development process used to improve the quality of software. 
+It is crucial to improve software tests because of increase in size and complexity of software. However, it is often difficult to do a complete testing as there are incompatibilities between the cost of testing and the number of faults it detects. Quality of a test suite often measures testing effectiveness. A test suite detecting more bugs directly implies the quality of that test suite.
+One of the ways to measure the quality of test suite is through Mutation Testing. 
+It initiates spurious defects to measure the quality of test suite. Mutation introduces defects by modifying a small piece of code that should result in an abnormal behavior when tests are run. If the tests fail, it can be inferred that some tests are not checking every possible behavior. So those tests need  to be improved. Developers need to design new tests that can distinguish the behavior of mutants from the original program. There are two well-known tools available to calculate mutation score i.e Stryker and PIT testing.
+For our projects, we have chosen PIT, a practical mutation PIT testing tool for Java.
+As we have only considered Java Maven build projects for our study, it is likely to use PIT testing. 
+Other mutation testing tools are comparatively slow, difficult to use, and are mainly build for academic research purpose. 
+The objective of PIT is to provide a clear report indicating test execution combining line coverage and mutation coverage for each test suite. The advantage of using PIT is that it is fast, robust and easily integrable with development tools. We can also use command line interface to run PIT testing. We have used PITClipse plugin in Eclipse IDE to generate mutation score. As shown in Figure 1 and 2, it highlights the mutants that were killed and that were survived using different colors which is easy to understand. 
+Also, it provides the list of mutation operators used to create mutants. PIT is publicly available at http://pitest.org/ 
+Methodology:
+The mutation score is defined as the percentage of killed mutants with the total number of mutants.
+·	Mutation Score = (Killed Mutants / Total number of Mutants) * 100
+
+Steps executed to generate a mutation score in PITClipse for all test suites:
+1) Install PITClipse plugin in Eclipse
+2) Run maven build project for PIT testing
+3) Mutant generation and execution 
+4) Get Mutation Score from PIT Report generated in PITClipse console.
+
+Steps executed to generate a mutation score in Command Line Interface for all test suites:
+1) Add Pitest plugin in pom.xml file of project.
+2) Run “maven clean install”
+3) Run “mvn org.pitest:pitest-maven:mutationCoverage”
+4) Mutant generation and execution
+5) Get Mutation Score from PIT Report generated in target folder of project.
+
