@@ -12,11 +12,12 @@ Steps executed to generate a mutation score in PITClipse for all test suites:
 Steps executed to generate a mutation score in Command Line Interface for all test suites:
 1) Add Pitest plugin in pom.xml file of project.<br>
 Configuration<br>
-<plugin>
+
+<p><plugin>
     <groupId>org.pitest</groupId>
     <artifactId>pitest-maven</artifactId>
     <version>LATEST</version>
- </plugin>
+ </plugin></p>
 2) Run “maven clean install”<br>
 3) Run “mvn org.pitest:pitest-maven:mutationCoverage”<br>
 4) Mutant generation and execution<br>
