@@ -7,8 +7,8 @@ After passing all the required tests, now Import the results into Eclipse File -
 Results can be exported, (Creates a code coverage report for tests of a single project in multiple formats (HTML, XML, and CSV)) using File -> Export -> Coverage Report -> select session and location.
 
 In order to get the coverage from eclipse using Jacoco we have added dependency code:
-<plugin><br>
-  <groupId>org.jacoco</groupId><br>
-  <artifactId>jacoco-maven-plugin</artifactId><br>
-  <version>0.8.4-SNAPSHOT</version><br>
+<plugin>
+  <groupId>org.jacoco</groupId>
+  <artifactId>jacoco-maven-plugin</artifactId>
+  <version>0.8.4-SNAPSHOT</version>
 </plugin>
