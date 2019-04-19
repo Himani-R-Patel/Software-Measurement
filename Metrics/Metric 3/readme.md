@@ -14,9 +14,9 @@ Steps executed to generate a mutation score in Command Line Interface for all te
 Configuration<br>
 
 < plugin><br>
-    < groupId>org.pitest</groupId><br>
-    < artifactId>pitest-maven</artifactId><br>
-    < version>LATEST</version><br>
+    < groupId>org.pitest</ groupId><br>
+    < artifactId>pitest-maven</ artifactId><br>
+    < version>LATEST</ version><br>
  </ plugin><br>
 2) Run “maven clean install”<br>
 3) Run “mvn org.pitest:pitest-maven:mutationCoverage”<br>
