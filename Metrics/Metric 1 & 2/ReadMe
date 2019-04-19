@@ -1,0 +1,14 @@
+Calculating statement and branch coverage: 
+The idea is simple. The application is started with a code coverage tool (JaCoCo)  attached to it, then tests are executed, and results are gathered.
+
+Installation is done through Eclipse -> Help -> Eclipse Marketplace… -> search for “jacoco” -> Install -> restart Eclipse.
+Project have to be imported to Eclipse from File -> Import -> Existing Maven projects.
+After passing all the required tests, now Import the results into Eclipse File -> Import -> Coverage Session -> enter name and select code.
+Results can be exported, (Creates a code coverage report for tests of a single project in multiple formats (HTML, XML, and CSV)) using File -> Export -> Coverage Report -> select session and location.
+
+In order to get the coverage from eclipse using Jacoco we have added dependency code:
+<plugin> <br>
+  <groupId>org.jacoco</groupId> <br>
+  <artifactId>jacoco-maven-plugin</artifactId> <br>
+  <version>0.8.4-SNAPSHOT</version> <br>
+</plugin>
