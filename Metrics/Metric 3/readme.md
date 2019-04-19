@@ -13,11 +13,11 @@ Steps executed to generate a mutation score in Command Line Interface for all te
 1) Add Pitest plugin in pom.xml file of project.<br>
 Configuration<br>
 
-< plugin>
-    < groupId>org.pitest</groupId>
-    < artifactId>pitest-maven</artifactId>
-    < version>LATEST</version>
- </ plugin>
+< plugin><br>
+    < groupId>org.pitest</groupId><br>
+    < artifactId>pitest-maven</artifactId><br>
+    < version>LATEST</version><br>
+ </ plugin><br>
 2) Run “maven clean install”<br>
 3) Run “mvn org.pitest:pitest-maven:mutationCoverage”<br>
 4) Mutant generation and execution<br>
