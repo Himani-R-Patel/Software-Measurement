@@ -1,0 +1,2 @@
+To analyze the correlation between Code coverage and Mutation Score, we have taken data set of code coverage and mutation score for all test cases for all projects. We calculated Spearman Correlation for one project manually using its formula, and then used below link for other projects. The result of correlation is attached in separate file "Code coverage with Test suite Effectiveness".
+https://www.wessa.net/rwasp_spearman.wasp#output
