@@ -64,7 +64,7 @@ Every project .zip file contains all the 6-7 versions we have used to calculate 
 #Report<br>
 -Folder contains the final report of the project<br>
 
-=============Correlation Calculation========<br>
+=============Correlation Calculation=========<br>
 
 *We did not explicitly use any code or script to calculate our metrics.<br>
 *We have gathered all the data together in excel sheets and have writen the excel macros to get the results.<br>
