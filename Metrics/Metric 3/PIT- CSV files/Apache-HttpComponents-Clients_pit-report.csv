@@ -1,0 +1,28 @@
+Number of Classes,Line Coverage %,Line Coverage,Mutation Coverage %,Mutation Coverage,
+234,53%,5532/10343,53%,2679/5032,
+Name,Number of Classes,Line Coverage %,Line Coverage ,Mutation Coverage %,Mutation Coverage
+org.apache.hc.client5.http,7,92%,257/280,86%,142/166
+org.apache.hc.client5.http.async,1,0%,0/8,0%,0/1
+org.apache.hc.client5.http.async.methods,15,0%,0/378,0%,0/217
+org.apache.hc.client5.http.auth,9,81%,256/317,77%,118/154
+org.apache.hc.client5.http.classic,1,100%,07-Jul,100%,01-Jan
+org.apache.hc.client5.http.classic.methods,4,63%,140/224,60%,71/118
+org.apache.hc.client5.http.config,1,94%,119/127,87%,33/38
+org.apache.hc.client5.http.cookie,5,83%,106/128,73%,49/67
+org.apache.hc.client5.http.entity,8,79%,139/177,56%,58/103
+org.apache.hc.client5.http.entity.mime,16,81%,417/514,72%,198/276
+org.apache.hc.client5.http.impl,18,53%,198/376,40%,68/168
+org.apache.hc.client5.http.impl.async,26,0%,0/1582,0%,0/547
+org.apache.hc.client5.http.impl.auth,18,69%,1157/1681,69%,728/1054
+org.apache.hc.client5.http.impl.classic,32,62%,915/1486,51%,335/655
+org.apache.hc.client5.http.impl.cookie,18,77%,457/592,75%,228/305
+org.apache.hc.client5.http.impl.io,11,59%,402/683,49%,133/270
+org.apache.hc.client5.http.impl.nio,6,0%,0/334,0%,0/125
+org.apache.hc.client5.http.impl.routing,4,91%,93/102,95%,70/74
+org.apache.hc.client5.http.nio,1,0%,0/14,0%,0/8
+org.apache.hc.client5.http.protocol,8,82%,225/276,85%,78/92
+org.apache.hc.client5.http.psl,4,74%,116/157,78%,57/73
+org.apache.hc.client5.http.routing,1,82%,14/17,67%,15-Oct
+org.apache.hc.client5.http.socket,1,77%,13-Oct,44%,09-Apr
+org.apache.hc.client5.http.ssl,16,41%,227/560,44%,126/289
+org.apache.hc.client5.http.utils,3,89%,277/310,83%,172/207
