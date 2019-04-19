@@ -1,12 +1,12 @@
 # TEAM-F
 
 =============Team member Details================<br>
-      Name               Student ID             Email
-Sukesh Kumar Mudrakola	 -40079835	    -sukeshkumar.1995@gmail.com
-Pruthvi Raju Nallaparaju -40076735	    -npraju999@gmail.com
-Bhavana Bomma	           -40071320      -bomma08@gmail.com
-Birva Shah	             -40070973      -birvashah.shah3@gmail.com
-Himani Patel	           -40071101	    -himanip1996@gmail.com
+      Name               Student ID             Email<br>
+Sukesh Kumar Mudrakola	 -40079835	    -sukeshkumar.1995@gmail.com<br>
+Pruthvi Raju Nallaparaju -40076735	    -npraju999@gmail.com<br>
+Bhavana Bomma	           -40071320      -bomma08@gmail.com<br>
+Birva Shah	             -40070973      -birvashah.shah3@gmail.com<br>
+Himani Patel	           -40071101	    -himanip1996@gmail.com<br>
 
 =============Projects Selected================
 
