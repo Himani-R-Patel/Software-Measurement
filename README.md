@@ -1,6 +1,6 @@
 # TEAM-F
 
-=============Team member Details===============
+=============Team member Details================
       Name               Student ID             Email
 Sukesh Kumar Mudrakola	 -40079835	    -sukeshkumar.1995@gmail.com
 Pruthvi Raju Nallaparaju -40076735	    -npraju999@gmail.com
